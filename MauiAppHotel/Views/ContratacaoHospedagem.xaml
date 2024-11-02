@@ -87,7 +87,24 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar" Clicked="Button_Clicked"   />
+                <Button Text="Avançar" Clicked="Button_Clicked" Margin="10"/>
+
+                <HorizontalStackLayout>
+                    
+                    <Button Text="Imagem" x:Name="Imagem" Clicked="Imagem_Clicked" HorizontalOptions="Start"
+                            Margin="15" BackgroundColor="Green"/>
+                    
+                    <Button Text="Sobre" x:Name="Sobre" Clicked="Sobre_Clicked" HorizontalOptions="End"
+                            Margin="15" BackgroundColor="GreenYellow" TextColor="Black"/>
+
+                    <Button Text="Localização" x:Name="Local" Clicked="Local_Clicked" HorizontalOptions="End"
+                            Margin="15" BackgroundColor="Gray"/>
+
+                </HorizontalStackLayout>
+
+                
+                
+                
 
             </VerticalStackLayout>
         </Frame>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Sobre"
+             Title="">
+    <VerticalStackLayout>
+
+        <Label 
+            Text="Sobre o Desenvolvedor"
+            TextColor="BlueViolet"
+            FontSize="30"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Este aplicativo foi desenvolvido por equipe especializada em software com Scrum Master: Marcelo B. Galerani.    Formação pelo
+            Centro Paula Souza do Governo do Estado de São Paulo - Ensino a distância."
+            FontSize="18"
+            TextColor="Blue"
+            VerticalOptions="Center"
+            HorizontalOptions="CenterAndExpand"/>
+
+
+
+        <Button Text="Voltar"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                x:Name="bt_voltar"
+                Clicked="bt_voltar_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
